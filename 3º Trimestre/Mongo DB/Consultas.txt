@@ -1,0 +1,37 @@
+2) Realizar las siguientes consultas en la colección movies:
+
+Listar todas las películas
+db.movies.find()
+
+Encontrar las dirigidas por Quentin Tarantino
+db.movies.find({writer:"Quentin Tarantino"})
+
+Encontrar aquellas en las que interviene Brad Pitt
+db.movies.find({actors:"Brad Pitt"})
+
+Encontrar los títulos correspondientes a la franquicia de "The Hobbit"
+
+
+Encontrar todas las películas de los años 90
+
+
+Obtener las películas estrenadas entre el año 2000 y 2010
+
+
+
+3) Búsqueda con texto:
+
+Encontrar las películas que en la sinopsis contengan la palabra "Bilbo"
+Encontrar las películas que en la sinopsis contengan la palabra "Gandalf"
+Encontrar las películas que en la sinopsis contengan la palabra "Bilbo" y no la palabra "Gandalf"
+Encontrar las películas que en la sinopsis contengan la palabra "dwarves" ó "hobbit"
+Encontrar las películas que en la sinopsis contengan la palabra "gold" y "dragon"
+
+
+4) Actualizar y borrar documentos
+
+Agregar la siguiente sinopsis a "The Hobbit: An Unexpected Journey" : "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home - and the gold within it - from the dragon Smaug."
+Agregar la siguiente sinopsis a "The Hobbit: The Desolation of Smaug" : "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring."
+Añadir al actor "Samuel L. Jackson" a la película "Pulp Fiction"
+Eliminar la película "Pee Wee Herman's Big Adventure"
+Eliminar la película "Avatar"
