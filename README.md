@@ -40,7 +40,7 @@ This repository is dedicated to the Database Management course, where we will wo
 - SQL
 - PLpgSQL
 
-##Contact
+## Contact
 
 For any questions or comments, feel free to get in touch:
 
